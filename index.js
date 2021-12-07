@@ -350,56 +350,56 @@ if there is no AM or Pm then the hour shall not print
 // } else { console.log('its wrong boi ') }
 // console.log(secretguessnum)
 
-function huhu(hmm) {
-    return hmm * 3
-}
-function haha(hehe) {
-    hehe = huhu(100)
-    return hehe + 10
-}
-console.log(haha(12))
+// function huhu(hmm) {
+//     return hmm * 3
+// }
+// function haha(hehe) {
+//     hehe = huhu(100)
+//     return hehe + 10
+// }
+// console.log(haha(12))
 
 
 
 
 
 
-function calculate(num) {
-    let str = "0";
-    for (let i = 0; i < num; i++) {
-        if (num % i == 0) {
-            str += ',' + i
-        }
-    }
-    console.log(str)
-}
-calculate(12)
-// const a = 12
-// const b = 122
-// const he = (a + b) / 2;
-// console.log(a + b, he)
+// function calculate(num) {
+//     let str = "0";
+//     for (let i = 0; i < num; i++) {
+//         if (num % i == 0) {
+//             str += ',' + i
+//         }
+//     }
+//     console.log(str)
+// }
+// calculate(12)
+// // const a = 12
+// // const b = 122
+// // const he = (a + b) / 2;
+// // console.log(a + b, he)
 
-const a = [12, 2200, 122, 129, 32, 348]
-const b = [];
-function ah(h) {
-    let m = h[0];
-    for (let i = o; i < a.length; i++) {
+// const a = [12, 2200, 122, 129, 32, 348]
+// const b = [];
+// function ah(h) {
+//     let m = h[0];
+//     for (let i = o; i < a.length; i++) {
 
-    }
-}
-const average = [10, 20, 220, 320, 20]
-const storeaverage = [];
+//     }
+// }
+// const average = [10, 20, 220, 320, 20]
+// const storeaverage = [];
 
-//finding average
-for (let i = 0; i < average.length; i++) {
+// //finding average
+// for (let i = 0; i < average.length; i++) {
 
-    function hmmav(av) {
-        return av
-    }
-    storeaverage.push(hmmav(average[i]) + [i])
+//     function hmmav(av) {
+//         return av
+//     }
+//     storeaverage.push(hmmav(average[i]) + [i])
 
-}
-console.log(storeaverage)
+// }
+// console.log(storeaverage)
 
 
 // let secretnumber = Math.trunc(Math.random() * 20 + 1);
