@@ -29,18 +29,18 @@ document.querySelector('.check').addEventListener('click',
 
 
         // if guess is correct
-//         else if (guess === secretNumber) {
-//             // document.querySelector('.message').textContent = 'Correct Guess 🎉🎉🍾'
-//             displayMessage('Correct Guess 🎉🎉🍾')
-//             document.querySelector('body').style.backgroundColor = 'tomato';
-//             document.querySelector('.number').style.width = '40rem'
-//             document.querySelector('.box1').style.display = 'none'
+        else if (guess === secretNumber) {
+            // document.querySelector('.message').textContent = 'Correct Guess 🎉🎉🍾'
+            displayMessage('Correct Guess 🎉🎉🍾')
+            document.querySelector('body').style.backgroundColor = 'tomato';
+            document.querySelector('.number').style.width = '40rem'
+            document.querySelector('.box1').style.display = 'none'
 
-//             if (score > highscore) {
-//                 highscore = score;
-//                 document.querySelector('.highscore').textContent = highscore
-//             }
-//         }
+            if (score > highscore) {
+                highscore = score;
+                document.querySelector('.highscore').textContent = highscore
+            }
+        }
 
         // When guess is wrong
         else if (guess !== secretNumber) {
